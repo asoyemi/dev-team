@@ -1,0 +1,17 @@
+create a share on netapp
+
+Create a folder on \\ukstrnas02\cifs_shares$
+
+Login into netapp through putty or ssh
+
+root
+netapp000
+
+run the following command
+cifs shares -add "Insighthub$" "/vol/vol_cifs_shares/PUK - Insighthub" 
+
+where PUK - Insighthub is the folder you created in the above url. this will share the folder insighthub$ as hidden
+
+Same way to create a share on ukedgnas01 server 
+
+cifs shares -add "Test migration$" "/vol/vol_cifs_shares/PUK - Testmigration"

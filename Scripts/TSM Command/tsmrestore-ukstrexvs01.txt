@@ -1,0 +1,536 @@
+*****RUN TPDEXCC COMMAND TO CHECK THE BACK LIST FOR THE EXCHNAGE SERVER NODE*************
+
+C:\TSM\TDPExchange>tdpexcc q tsm * /all /fromexcserver=ukstrexvs01 /tsmoptfile=vs01_monthly.opt >C:backup.txt
+
+
+OUTPUT BELOW
+
+IBM Tivoli Storage Manager for Mail:
+Data Protection for Microsoft Exchange Server
+Version 5, Release 2, Level 1.0
+(C) Copyright IBM Corporation 1998, 2003. All rights reserved.
+
+                             Backup List
+                             -----------
+
+   Exchange Server  : UKSTREXVS01
+
+  Storage Group    : SG1
+
+      Backup Date         Size      A/I  B/U Type  Object Name/Database Name
+---------------------  -----------  ---  --------  -------------------------
+04/24/2010 03:59:25       241.73GB   I   full      20100424035925
+                           39.00GB                 PED Amsterdam
+                        3,995.14MB                 PED Switzerland
+                          109.78GB                 Public Folder Store
+                           52.45GB                 PUK (Surname A-C)
+                           36.48GB                 VUE Manchester (A-L)
+05/29/2010 03:58:40       243.56GB   I   full      20100529035840
+                           39.53GB                 PED Amsterdam
+                        4,039.21MB                 PED Switzerland
+                          110.65GB                 Public Folder Store
+                           52.46GB                 PUK (Surname A-C)
+                           36.93GB                 VUE Manchester (A-L)
+06/26/2010 04:00:43       246.40GB   I   full      20100626040043
+                           40.72GB                 PED Amsterdam
+                        4,116.27MB                 PED Switzerland
+                          111.72GB                 Public Folder Store
+                           52.46GB                 PUK (Surname A-C)
+                           37.31GB                 VUE Manchester (A-L)
+07/31/2010 04:03:35       248.09GB   I   full      20100731040335
+                           41.02GB                 PED Amsterdam
+                        4,116.27MB                 PED Switzerland
+                          113.20GB                 Public Folder Store
+                           52.46GB                 PUK (Surname A-C)
+                           37.31GB                 VUE Manchester (A-L)
+09/25/2010 03:59:22       250.48GB   I   full      20100925035922
+                           41.78GB                 PED Amsterdam
+                        3,401.02MB                 PED Switzerland
+                          120.70GB                 Public Folder Store
+                           47.84GB                 PUK (Surname A-C)
+                           36.74GB                 VUE Manchester (A-L)
+10/30/2010 04:08:35       255.70GB   I   full      20101030040835
+                           43.46GB                 PED Amsterdam
+                        3,894.08MB                 PED Switzerland
+                          120.70GB                 Public Folder Store
+                           48.64GB                 PUK (Surname A-C)
+                           39.06GB                 VUE Manchester (A-L)
+11/27/2010 04:07:03       259.71GB   I   full      20101127040703
+                           45.38GB                 PED Amsterdam
+                        3,988.08MB                 PED Switzerland
+                          120.76GB                 Public Folder Store
+                           50.33GB                 PUK (Surname A-C)
+                           39.28GB                 VUE Manchester (A-L)
+12/25/2010 04:04:47       263.29GB   I   full      20101225040447
+                           45.50GB                 PED Amsterdam
+                        3,988.14MB                 PED Switzerland
+                          122.35GB                 Public Folder Store
+                           51.08GB                 PUK (Surname A-C)
+                           40.44GB                 VUE Manchester (A-L)
+01/29/2011 04:04:00       265.22GB   I   full      20110129040400
+                           45.68GB                 PED Amsterdam
+                        3,998.14MB                 PED Switzerland
+                          123.50GB                 Public Folder Store
+                           51.64GB                 PUK (Surname A-C)
+                           40.46GB                 VUE Manchester (A-L)
+02/26/2011 04:14:35       271.93GB   I   full      20110226041435
+                           47.90GB                 PED Amsterdam
+                        4,160.14MB                 PED Switzerland
+                          125.34GB                 Public Folder Store
+                           52.01GB                 PUK (Surname A-C)
+                           42.56GB                 VUE Manchester (A-L)
+03/26/2011 04:01:14       275.33GB   I   full      20110326040114
+                           48.43GB                 PED Amsterdam
+                        4,318.21MB                 PED Switzerland
+                          126.75GB                 Public Folder Store
+                           52.16GB                 PUK (Surname A-C)
+                           43.74GB                 VUE Manchester (A-L)
+04/30/2011 04:04:11       279.65GB   I   full      20110430040411
+                           50.14GB                 PED Amsterdam
+                        4,499.27MB                 PED Switzerland
+                          127.60GB                 Public Folder Store
+                           52.50GB                 PUK (Surname A-C)
+                           44.98GB                 VUE Manchester (A-L)
+05/28/2011 04:08:41       283.79GB   I   full      20110528040841
+                           50.43GB                 PED Amsterdam
+                        4,499.27MB                 PED Switzerland
+                          131.14GB                 Public Folder Store
+                           52.78GB                 PUK (Surname A-C)
+                           44.99GB                 VUE Manchester (A-L)
+06/25/2011 04:15:53       289.73GB   I   full      20110625041553
+                           50.75GB                 PED Amsterdam
+                        4,581.33MB                 PED Switzerland
+                          136.60GB                 Public Folder Store
+                           52.86GB                 PUK (Surname A-C)
+                           44.99GB                 VUE Manchester (A-L)
+07/30/2011 04:12:33       291.61GB   I   full      20110730041233
+                           50.75GB                 PED Amsterdam
+                        4,615.39MB                 PED Switzerland
+                          136.60GB                 Public Folder Store
+                           53.66GB                 PUK (Surname A-C)
+                           45.97GB                 VUE Manchester (A-L)
+08/27/2011 04:02:36       295.98GB   I   full      20110827040236
+                           50.98GB                 PED Amsterdam
+                        4,615.46MB                 PED Switzerland
+                          139.36GB                 Public Folder Store
+                           54.17GB                 PUK (Surname A-C)
+                           46.94GB                 VUE Manchester (A-L)
+09/24/2011 04:07:39       300.64GB   I   full      20110924040739
+                           51.22GB                 PED Amsterdam
+                        4,663.52MB                 PED Switzerland
+                          139.39GB                 Public Folder Store
+                           56.86GB                 PUK (Surname A-C)
+                           48.59GB                 VUE Manchester (A-L)
+11/26/2011 04:15:53       311.78GB   I   full      20111126041553
+                           53.69GB                 PED Amsterdam
+                        5,131.58MB                 PED Switzerland
+                          142.22GB                 Public Folder Store
+                           58.09GB                 PUK (Surname A-C)
+                           52.72GB                 VUE Manchester (A-L)
+12/31/2011 04:14:48       319.22GB   I   full      20111231041448
+                           57.39GB                 PED Amsterdam
+                        5,131.64MB                 PED Switzerland
+                          144.50GB                 Public Folder Store
+                           59.34GB                 PUK (Surname A-C)
+                           52.94GB                 VUE Manchester (A-L)
+01/28/2012 04:12:45       321.96GB   I   full      20120128041245
+                           57.78GB                 PED Amsterdam
+                        5,131.71MB                 PED Switzerland
+                          144.76GB                 Public Folder Store
+                           59.34GB                 PUK (Surname A-C)
+                           54.98GB                 VUE Manchester (A-L)
+02/25/2012 04:09:10       325.97GB   I   full      20120225040910
+                           58.50GB                 PED Amsterdam
+                        5,341.77MB                 PED Switzerland
+                          146.07GB                 Public Folder Store
+                           59.35GB                 PUK (Surname A-C)
+                           56.76GB                 VUE Manchester (A-L)
+03/31/2012 04:13:56       351.18GB   I   full      20120331041356
+                           63.59GB                 PED Amsterdam
+                        5,341.83MB                 PED Switzerland
+                          146.12GB                 Public Folder Store
+                           73.95GB                 PUK (Surname A-C)
+                           61.67GB                 VUE Manchester (A-L)
+04/28/2012 04:11:13       366.07GB   I   full      20120428041113
+                           64.62GB                 PED Amsterdam
+                        5,341.83MB                 PED Switzerland
+                          147.32GB                 Public Folder Store
+                           81.93GB                 PUK (Surname A-C)
+                           66.88GB                 VUE Manchester (A-L)
+05/26/2012 04:10:21       388.89GB   I   full      20120526041021
+                           65.34GB                 PED Amsterdam
+                        5,341.83MB                 PED Switzerland
+                          154.17GB                 Public Folder Store
+                           91.73GB                 PUK (Surname A-C)
+                           72.28GB                 VUE Manchester (A-L)
+06/30/2012 04:12:36       400.92GB   I   full      20120630041236
+                           65.60GB                 PED Amsterdam
+                        5,730.89MB                 PED Switzerland
+                          155.63GB                 Public Folder Store
+                           96.46GB                 PUK (Surname A-C)
+                           77.31GB                 VUE Manchester (A-L)
+07/28/2012 07:01:03       411.36GB   I   full      20120728070103
+                           65.60GB                 PED Amsterdam
+                        5,730.96MB                 PED Switzerland
+                          156.51GB                 Public Folder Store
+                          101.05GB                 PUK (Surname A-C)
+                           82.46GB                 VUE Manchester (A-L)
+08/25/2012 04:13:20       431.72GB   I   full      20120825041320
+                           66.10GB                 PED Amsterdam
+                        5,730.96MB                 PED Switzerland
+                          165.57GB                 Public Folder Store
+                          104.28GB                 PUK (Surname A-C)
+                           89.71GB                 VUE Manchester (A-L)
+10/01/2012 10:11:03       447.04GB   I   full      20121001101103
+                           66.63GB                 PED Amsterdam
+                        5,826.08MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          107.26GB                 PUK (Surname A-C)
+                           96.89GB                 VUE Manchester (A-L)
+10/29/2012 09:37:12       452.19GB   I   full      20121029093712
+                           66.75GB                 PED Amsterdam
+                        5,826.14MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          107.26GB                 PUK (Surname A-C)
+                          102.11GB                 VUE Manchester (A-L)
+11/25/2012 03:00:21       409.90GB   I   full      20121125030021
+                           65.33GB                 PED Amsterdam
+                        6,947.08MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                           58.76GB                 PUK (Surname A-C)
+                          111.72GB                 VUE Manchester (A-L)
+12/29/2012 04:19:44       416.13GB   I   full      20121229041944
+                           66.84GB                 PED Amsterdam
+                        6,947.08MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                           59.74GB                 PUK (Surname A-C)
+                          115.67GB                 VUE Manchester (A-L)
+03/30/2013 04:10:04       478.27GB   I   full      20130330041004
+                           69.88GB                 PED Amsterdam
+                        7,049.14MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          104.75GB                 PUK (Surname A-C)
+                          129.29GB                 VUE Manchester (A-L)
+04/02/2013 10:34:26       485.31GB   I   full      20130402103426
+                           69.88GB                 PED Amsterdam
+                        7,049.14MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          104.75GB                 PUK (Surname A-C)
+                          129.29GB                 VUE Manchester (A-L)
+04/27/2013 04:16:49       488.12GB   I   full      20130427041649
+                           69.88GB                 PED Amsterdam
+                        7,446.21MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          104.76GB                 PUK (Surname A-C)
+                          135.10GB                 VUE Manchester (A-L)
+05/25/2013 14:11:35       485.59GB   I   full      20130525141135
+                           69.88GB                 PED Amsterdam
+                        7,446.27MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          104.76GB                 PUK (Surname A-C)
+                          136.62GB                 VUE Manchester (A-L)
+07/27/2013 04:22:28       486.90GB   I   full      20130727042228
+                           69.88GB                 PED Amsterdam
+                        7,446.39MB                 PED Switzerland
+                          166.98GB                 Public Folder Store
+                          105.28GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+08/31/2013 04:15:14       494.32GB   I   full      20130831041514
+                           69.88GB                 PED Amsterdam
+                        7,446.39MB                 PED Switzerland
+                          174.52GB                 Public Folder Store
+                          105.33GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+09/28/2013 04:22:44       497.10GB   I   full      20130928042244
+                           69.88GB                 PED Amsterdam
+                        7,446.39MB                 PED Switzerland
+                          174.52GB                 Public Folder Store
+                          108.08GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+10/26/2013 09:29:02       497.39GB   I   full      20131026092902
+                           69.88GB                 PED Amsterdam
+                        7,446.46MB                 PED Switzerland
+                          174.52GB                 Public Folder Store
+                          108.08GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+11/30/2013 04:22:38       498.48GB   I   full      20131130042238
+                           69.88GB                 PED Amsterdam
+                        7,980.52MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+                          108.54GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+12/28/2013 04:13:36       498.03GB   I   full      20131228041336
+                           69.88GB                 PED Amsterdam
+                        7,980.52MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+                          108.54GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+01/25/2014 04:25:16       498.04GB   I   full      20140125042516
+                           69.88GB                 PED Amsterdam
+                        7,980.52MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+                          108.54GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+02/22/2014 04:13:35       498.01GB   I   full      20140222041335
+                           69.88GB                 PED Amsterdam
+                        7,980.58MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+                          108.54GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+03/29/2014 04:41:01       497.98GB   I   full      20140329044101
+                           69.88GB                 PED Amsterdam
+                        7,980.64MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+                          108.54GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+04/26/2014 04:20:21       497.97GB   I   full      20140426042021
+                           69.88GB                 PED Amsterdam
+                        7,980.77MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+                          108.55GB                 PUK (Surname A-C)
+                          137.20GB                 VUE Manchester (A-L)
+05/31/2014 04:20:17       360.78GB   I   full      20140531042017
+                           69.88GB                 PED Amsterdam
+                        7,980.77MB                 PED Switzerland
+                          174.53GB                 Public Folder Store
+
+   Storage Group    : SG2
+
+      Backup Date         Size      A/I  B/U Type  Object Name/Database Name
+---------------------  -----------  ---  --------  -------------------------
+04/24/2010 06:04:05       123.98GB   I   full      20100424060405
+                           34.11GB                 PED Other (Surname A-L)
+                           38.75GB                 PLC (Surname A-L)
+                           51.09GB                 PUK (Surname D-G)
+05/29/2010 06:03:40       124.13GB   I   full      20100529060340
+                           34.16GB                 PED Other (Surname A-L)
+                           38.84GB                 PLC (Surname A-L)
+                           51.09GB                 PUK (Surname D-G)
+06/26/2010 06:05:11       124.47GB   I   full      20100626060511
+                           34.16GB                 PED Other (Surname A-L)
+                           39.19GB                 PLC (Surname A-L)
+                           51.10GB                 PUK (Surname D-G)
+07/31/2010 05:54:28       124.65GB   I   full      20100731055428
+                           34.16GB                 PED Other (Surname A-L)
+                           39.35GB                 PLC (Surname A-L)
+                           51.10GB                 PUK (Surname D-G)
+08/28/2010 04:08:20       124.68GB   I   full      20100828040820
+                           34.16GB                 PED Other (Surname A-L)
+                           39.39GB                 PLC (Surname A-L)
+                           51.10GB                 PUK (Surname D-G)
+09/25/2010 06:06:52       121.12GB   I   full      20100925060652
+                           32.28GB                 PED Other (Surname A-L)
+                           39.45GB                 PLC (Surname A-L)
+                           49.30GB                 PUK (Surname D-G)
+10/30/2010 06:13:41       124.46GB   I   full      20101030061341
+                           32.96GB                 PED Other (Surname A-L)
+                           40.46GB                 PLC (Surname A-L)
+                           51.03GB                 PUK (Surname D-G)
+11/27/2010 06:17:51       126.40GB   I   full      20101127061751
+                           33.06GB                 PED Other (Surname A-L)
+                           41.50GB                 PLC (Surname A-L)
+                           51.80GB                 PUK (Surname D-G)
+12/25/2010 06:24:24       128.99GB   I   full      20101225062424
+                           33.80GB                 PED Other (Surname A-L)
+                           42.21GB                 PLC (Surname A-L)
+                           52.97GB                 PUK (Surname D-G)
+01/29/2011 07:30:37       129.92GB   I   full      20110129073037
+                           33.81GB                 PED Other (Surname A-L)
+                           42.65GB                 PLC (Surname A-L)
+                           53.45GB                 PUK (Surname D-G)
+02/26/2011 06:53:02       132.60GB   I   full      20110226065302
+                           35.33GB                 PED Other (Surname A-L)
+                           43.80GB                 PLC (Surname A-L)
+                           53.45GB                 PUK (Surname D-G)
+03/26/2011 06:44:29       136.23GB   I   full      20110326064429
+                           36.41GB                 PED Other (Surname A-L)
+                           44.99GB                 PLC (Surname A-L)
+                           54.81GB                 PUK (Surname D-G)
+04/30/2011 06:39:54       137.52GB   I   full      20110430063954
+                           36.96GB                 PED Other (Surname A-L)
+                           45.33GB                 PLC (Surname A-L)
+                           55.20GB                 PUK (Surname D-G)
+05/28/2011 08:05:25       148.30GB   I   full      20110528080525
+                           47.33GB                 PED Other (Surname A-L)
+                           45.55GB                 PLC (Surname A-L)
+                           55.40GB                 PUK (Surname D-G)
+06/25/2011 08:07:20       149.18GB   I   full      20110625080720
+                           47.33GB                 PED Other (Surname A-L)
+                           46.43GB                 PLC (Surname A-L)
+                           55.40GB                 PUK (Surname D-G)
+07/30/2011 09:53:00       151.18GB   I   full      20110730095300
+                           47.33GB                 PED Other (Surname A-L)
+                           47.96GB                 PLC (Surname A-L)
+                           55.66GB                 PUK (Surname D-G)
+08/27/2011 06:42:28       151.14GB   I   full      20110827064228
+                           47.33GB                 PED Other (Surname A-L)
+                           48.14GB                 PLC (Surname A-L)
+                           55.66GB                 PUK (Surname D-G)
+09/24/2011 07:05:42       156.57GB   I   full      20110924070542
+                           48.21GB                 PED Other (Surname A-L)
+                           50.96GB                 PLC (Surname A-L)
+                           57.37GB                 PUK (Surname D-G)
+11/26/2011 08:04:38       164.25GB   I   full      20111126080438
+                           49.84GB                 PED Other (Surname A-L)
+                           53.68GB                 PLC (Surname A-L)
+                           60.67GB                 PUK (Surname D-G)
+12/31/2011 07:06:50       167.00GB   I   full      20111231070650
+                           49.85GB                 PED Other (Surname A-L)
+                           55.87GB                 PLC (Surname A-L)
+                           61.27GB                 PUK (Surname D-G)
+01/28/2012 07:06:07       169.52GB   I   full      20120128070607
+                           49.91GB                 PED Other (Surname A-L)
+                           57.77GB                 PLC (Surname A-L)
+                           61.80GB                 PUK (Surname D-G)
+02/25/2012 09:19:50       175.77GB   I   full      20120225091950
+                           51.77GB                 PED Other (Surname A-L)
+                           61.77GB                 PLC (Surname A-L)
+                           62.09GB                 PUK (Surname D-G)
+04/28/2012 09:02:03       227.70GB   I   full      20120428090203
+                           64.18GB                 PED Other (Surname A-L)
+                           76.66GB                 PLC (Surname A-L)
+                           86.68GB                 PUK (Surname D-G)
+05/26/2012 09:19:22       243.24GB   I   full      20120526091922
+                           68.82GB                 PED Other (Surname A-L)
+                           80.78GB                 PLC (Surname A-L)
+                           93.53GB                 PUK (Surname D-G)
+06/30/2012 11:20:35       261.01GB   I   full      20120630112035
+                           75.01GB                 PED Other (Surname A-L)
+                           87.09GB                 PLC (Surname A-L)
+                           98.77GB                 PUK (Surname D-G)
+07/28/2012 10:43:28       269.16GB   I   full      20120728104328
+                           77.59GB                 PED Other (Surname A-L)
+                           88.50GB                 PLC (Surname A-L)
+                          102.96GB                 PUK (Surname D-G)
+08/25/2012 11:05:01       272.19GB   I   full      20120825110501
+                           77.83GB                 PED Other (Surname A-L)
+                           90.43GB                 PLC (Surname A-L)
+                          103.88GB                 PUK (Surname D-G)
+10/01/2012 15:54:24       280.71GB   I   full      20121001155424
+                           84.89GB                 PED Other (Surname A-L)
+                           90.43GB                 PLC (Surname A-L)
+                          103.88GB                 PUK (Surname D-G)
+10/29/2012 13:37:08       266.43GB   I   full      20121029133708
+                           86.76GB                 PED Other (Surname A-L)
+                           90.43GB                 PLC (Surname A-L)
+                           88.02GB                 PUK (Surname D-G)
+11/24/2012 06:32:57       251.48GB   I   full      20121124063257
+                           84.23GB                 PED Other (Surname A-L)
+                           78.89GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+12/29/2012 09:27:23       257.54GB   I   full      20121229092723
+                           84.67GB                 PED Other (Surname A-L)
+                        1,814.08MB                 PG India Lastname A to F
+                           83.03GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+01/26/2013 04:16:29       258.45GB   I   full      20130126041629
+                           84.67GB                 PED Other (Surname A-L)
+                        2,046.14MB                 PG India Lastname A to F
+                           83.52GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+04/02/2013 15:15:43       267.42GB   I   full      20130402151543
+                           84.67GB                 PED Other (Surname A-L)
+                        3,232.21MB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+05/25/2013 07:35:43       269.67GB   I   full      20130525073543
+                           87.49GB                 PED Other (Surname A-L)
+                        3,232.27MB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+07/27/2013 10:02:31       315.95GB   I   full      20130727100231
+                           87.49GB                 PED Other (Surname A-L)
+                           31.58GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+                           18.00GB                 Strand Resource1
+08/31/2013 07:25:42       319.59GB   I   full      20130831072542
+                           87.49GB                 PED Other (Surname A-L)
+                           34.48GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.03GB                 PUK (Surname D-G)
+                           18.72GB                 Strand Resource1
+09/28/2013 07:56:19       323.23GB   I   full      20130928075619
+                           87.49GB                 PED Other (Surname A-L)
+                           35.82GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           21.03GB                 Strand Resource1
+10/26/2013 07:11:37       324.85GB   I   full      20131026071137
+                           87.49GB                 PED Other (Surname A-L)
+                           36.79GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           21.58GB                 Strand Resource1
+11/30/2013 08:23:00       325.31GB   I   full      20131130082300
+                           87.49GB                 PED Other (Surname A-L)
+                           36.93GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           21.96GB                 Strand Resource1
+12/28/2013 07:12:02       327.52GB   I   full      20131228071202
+                           87.49GB                 PED Other (Surname A-L)
+                           37.26GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           23.88GB                 Strand Resource1
+01/25/2014 07:58:18       328.38GB   I   full      20140125075818
+                           87.49GB                 PED Other (Surname A-L)
+                           37.68GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           24.31GB                 Strand Resource1
+02/22/2014 08:40:07       331.22GB   I   full      20140222084007
+                           87.49GB                 PED Other (Surname A-L)
+                           40.56GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           24.31GB                 Strand Resource1
+03/29/2014 08:12:53       331.47GB   I   full      20140329081253
+                           87.49GB                 PED Other (Surname A-L)
+                           40.84GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           24.31GB                 Strand Resource1
+04/26/2014 08:28:31       331.48GB   I   full      20140426082831
+                           87.49GB                 PED Other (Surname A-L)
+                           40.84GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           24.31GB                 Strand Resource1
+05/31/2014 06:47:36       331.47GB   I   full      20140531064736
+                           87.49GB                 PED Other (Surname A-L)
+                           40.85GB                 PG India Lastname A to F
+                           90.78GB                 PLC (Surname A-L)
+                           88.04GB                 PUK (Surname D-G)
+                           24.31GB                 Strand Resource1
+06/28/2014 05:25:41       115.09GB   I   full      20140628052541
+                           90.78GB                 PLC (Surname A-L)
+                           24.31GB                 Strand Resource1
+08/30/2014 05:21:35       115.09GB   I   full      20140830052135
+                           90.78GB                 PLC (Surname A-L)
+                           24.31GB                 Strand Resource1
+09/27/2014 05:52:22       115.09GB   I   full      20140927055222
+                           90.78GB                 PLC (Surname A-L)
+                           24.31GB                 Strand Resource1
+10/25/2014 05:34:50       115.09GB   I   full      20141025053450
+                           90.78GB                 PLC (Surname A-L)
+                           24.31GB                 Strand Resource1
+11/29/2014 05:23:05       115.09GB   I   full      20141129052305
+                           90.78GB                 PLC (Surname A-L)
+                           24.31GB                 Strand Resource1
+12/27/2014 05:11:22       115.09GB   A   full      20141227051122
+                           90.78GB                 PLC (Surname A-L)
+                           24.31GB                 Strand Resource1
+
+*******RESTORE EXCHNAGE BACKUP FILE FROM PIONT INTIME********
+*******FOR TSMNODE=CHECK THE MONTHLY OPT FILE FOR THE SERVER********
+*******THE OBJECT ETAILS IS SHOWN FOR EACH FULL BACKUP, WHICH IS THE DATE AND TIME THE BACKUP WAS DONE****************
+
+C:\TSM\TDPExchange>tdpexcc restorefiles "SG1" FULL /partial="Public Folder Store" /OBJECT=20120526041021 /INTO=Y:\RSG /fromexcserver=ukstrexvs01 /tsmoptfile=vs01_monthly.opt /tsmpassword=password
+
+TO RESTORE A PARTICULAR DATABASE
+
+tdpexcc restorefiles "SG1" FULL /partial="Public Folder Store" /OBJECT=20140204181943 /INTO=L:\RSG /fromexcserver=ukstrexvs01 /tsmoptfile=restorevs01_daily.opt /tsmpassword=password
+
+So replace partial="public folder store" with the name of the DB you want to restore
